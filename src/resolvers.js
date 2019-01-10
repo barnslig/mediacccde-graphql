@@ -1,6 +1,6 @@
 const { GraphQLDate, GraphQLDateTime } = require("graphql-iso-date");
 
-const MediaApi = require("./MediaApi");
+const camelizeObj = require("./camelizeObj");
 
 /**
  * Generates a sort function
@@ -59,7 +59,7 @@ module.exports = {
         ({ recordings } = await dataSources.MediaApi.getEvent(_source.guid));
       }
 
-      return recordings.map(r => MediaApi.camelize(r));
+      return recordings.map(r => camelizeObj(r));
     },
 
     relatedEvents: async (_source, { offset, limit }, { dataSources }) =>
@@ -80,7 +80,7 @@ module.exports = {
       }
 
       return events
-        .map(e => MediaApi.camelize(e))
+        .map(e => camelizeObj(e))
         .sort(generateSortFn(order))
         .slice(offset, offset + limit);
     }
