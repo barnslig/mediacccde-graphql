@@ -87,6 +87,12 @@ module.exports = {
   },
 
   Query: {
+    mirrors: async (_source, _params, { dataSources }) =>
+      dataSources.MirrorApi.getMirrors(),
+
+    mirror: async (_source, { id }, { dataSources }) =>
+      dataSources.MirrorApi.getMirror(id),
+
     news: async (_source, { order }, { dataSources }) => {
       const data = await dataSources.NewsApi.getNews();
       return data.sort(generateSortFn(order));

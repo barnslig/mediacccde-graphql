@@ -5,6 +5,28 @@ module.exports = gql`
 
   scalar DateTime
 
+  """
+  This entity is a single file mirror
+  """
+  type Mirror {
+    id: ID!
+    httpUrl: String
+    latitude: Float
+    longitude: Float
+    continentCode: String
+    countryCodes: String
+    lastSync: DateTime
+    asnum: Int
+    sponsorUrl: String
+    sponsorLogoUrl: String
+    sponsorName: String
+    up: Boolean
+    enabled: Boolean
+    fileCount: Int
+    monthDownloads: Int
+    monthBytes: String
+  }
+
   enum NewsOrder {
     createdAt_ASC
     createdAt_DESC
@@ -118,6 +140,10 @@ module.exports = gql`
   }
 
   type Query {
+    mirrors: [Mirror]
+
+    mirror(id: ID): Mirror
+
     news(order: NewsOrder = updatedAt_DESC): [News]
 
     conferences(

@@ -1,6 +1,7 @@
 const { ApolloServer } = require("apollo-server");
 
 const MediaApi = require("./MediaApi");
+const MirrorApi = require("./MirrorApi");
 const NewsApi = require("./NewsApi");
 const resolvers = require("./resolvers");
 const typeDefs = require("./typeDefs");
@@ -10,6 +11,7 @@ const server = new ApolloServer({
   resolvers,
   dataSources: () => ({
     MediaApi: new MediaApi(),
+    MirrorApi: new MirrorApi(),
     NewsApi: new NewsApi()
   }),
   introspection: true,
