@@ -9,7 +9,9 @@ const server = new ApolloServer({
   resolvers,
   dataSources: () => ({
     MediaApi: new MediaApi()
-  })
+  }),
+  introspection: true,
+  playground: true
 });
 
 server.listen().then(({ url }) => {
