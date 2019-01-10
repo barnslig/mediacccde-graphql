@@ -11,7 +11,8 @@ const server = new ApolloServer({
     MediaApi: new MediaApi()
   }),
   introspection: true,
-  playground: true
+  playground: true,
+  tracing: process.env.NODE_ENV !== "production"
 });
 
 server.listen().then(({ url }) => {
