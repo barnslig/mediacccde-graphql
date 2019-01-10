@@ -36,7 +36,7 @@ module.exports = {
   DateTime: GraphQLDateTime,
 
   Recording: {
-    id: async _source => _source.url.split("/").slice(-1)[0],
+    id: _source => _source.url.split("/").slice(-1)[0],
 
     event: async (_source, _params, { dataSources }) =>
       dataSources.MediaApi.getEvent(_source.event_url.split("/").slice(-1)[0]),
@@ -71,7 +71,7 @@ module.exports = {
   },
 
   Conference: {
-    id: async _source => _source.url.split("/").slice(-1)[0],
+    id: _source => _source.url.split("/").slice(-1)[0],
 
     events: async (_source, { order, offset, limit }, { dataSources }) => {
       let { events } = _source;
@@ -87,6 +87,11 @@ module.exports = {
   },
 
   Query: {
+    news: async (_source, { order }, { dataSources }) => {
+      const data = await dataSources.NewsApi.getNews();
+      return data.sort(generateSortFn(order));
+    },
+
     conferences: async (_source, { order, offset, limit }, { dataSources }) => {
       const data = await dataSources.MediaApi.getConferences();
       return data.sort(generateSortFn(order)).slice(offset, offset + limit);

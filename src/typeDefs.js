@@ -5,6 +5,23 @@ module.exports = gql`
 
   scalar DateTime
 
+  enum NewsOrder {
+    createdAt_ASC
+    createdAt_DESC
+    updatedAt_ASC
+    updatedAt_DESC
+  }
+
+  """
+  This entity is a single news entry
+  """
+  type News {
+    title: String
+    content: String
+    createdAt: DateTime
+    updatedAt: DateTime
+  }
+
   """
   This entity is a single audio/video recording from an Event/Lecture
   """
@@ -101,6 +118,8 @@ module.exports = gql`
   }
 
   type Query {
+    news(order: NewsOrder = updatedAt_DESC): [News]
+
     conferences(
       order: ConferenceOrder = eventLastReleasedAt_ASC
       offset: Int = 0
