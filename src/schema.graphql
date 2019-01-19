@@ -1,0 +1,519 @@
+# An ISO 8601 encoded date string.
+scalar Date
+
+# An ISO 8601 encoded UTC date string.
+scalar DateTime
+
+# An RFC 3986, RFC 3987, and RFC 6570 (level 4) compliant URI string.
+scalar URI
+
+# An object with an ID.
+interface Node {
+  # ID of the object.
+  id: ID!
+}
+
+# Possible directions in which to order a list of items when provided an `orderBy` argument.
+enum OrderDirection {
+  # Specifies an ascending order for a given `orderBy` argument.
+  ASC
+
+  # Specifies a descending order for a given `orderBy` argument.
+  DESC
+}
+
+# Information about pagination in a connection.
+type PageInfo {
+  # When paginating forwards, are there more items?
+  hasNextPage: Boolean!
+
+  # When paginating backwards, are there more items?
+  hasPreviousPage: Boolean!
+}
+
+# Ways in which lists of mirrors can be ordered upon return.
+input MirrorOrder {
+  # The direction in which to order mirrors by the specified field.
+  direction: OrderDirection!
+
+  # The field in which to order mirrors by.
+  field: MirrorOrderField!
+}
+
+# Properties by which mirror connections can be ordered.
+enum MirrorOrderField {
+  # Order mirrors by amount of mirrored files
+  fileCount
+
+  # Order mirrors by last sync time
+  lastSync
+
+  # Order mirrors by amount of monthly traffic
+  monthBytes
+
+  # Order mirrors by amount of monthly downloads
+  monthDownloads
+}
+
+# A file mirror.
+type Mirror implements Node {
+  id: ID!
+
+  # The Autonomous System Number of the mirror's network.
+  asnum: Int
+
+  # A two-letter continent code, e.g. EU, US.
+  continentCode: String
+
+  # An ISO 3166-1 alpha-2 encoded two-letter country code, e.g. DE, NA.
+  countryCodes: String
+
+  # Whether the mirror is enabled.
+  enabled: Boolean
+
+  # The amount of files on this mirror.
+  fileCount: Int
+
+  # A URL pointing to the mirror's root.
+  httpUrl: URI
+
+  # Identifies the date and time of the last time the mirror was synced.
+  lastSync: DateTime
+
+  # The mirror's latitude.
+  latitude: Float
+
+  # The mirror's longitude
+  longitude: Float
+
+  # The amount of bytes this mirror transmitted during the current month.
+  monthBytes: String
+
+  # The amount of downloads from this mirror during the current month.
+  monthDownloads: Int
+
+  # A URL pointing to the logo of the mirror's sponsor.
+  sponsorLogoUrl: URI
+
+  # The name of the mirror's sponsor.
+  sponsorName: String
+
+  # A URL pointing to the website of the mirror's sponsor.
+  sponsorUrl: URI
+
+  # Whether the mirror is reachable.
+  up: Boolean
+}
+
+# The connection type for Mirror.
+type MirrorConnection {
+  # A list of nodes.
+  nodes: [Mirror]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # Identifies the total count of items in the connection.
+  totalCount: Int!
+}
+
+# Ways in which lists of news can be ordered upon return.
+input NewsOrder {
+  # The direction in which to order news by the specified field.
+  direction: OrderDirection!
+
+  # The field in which to order news by.
+  field: NewsOrderField!
+}
+
+# Properties by which news connections can be ordered.
+enum NewsOrderField {
+  # Order news by creation time
+  createdAt
+
+  # Order news by update time
+  updatedAt
+}
+
+# A news entry.
+type News implements Node {
+  id: ID!
+
+  # The title of this news entry.
+  title: String!
+
+  # The content of this news entry.
+  content: String!
+
+  # Identifies the date and time when the object was created.
+  createdAt: DateTime!
+
+  # Identifies the date and time when the object was last updated.
+  updatedAt: DateTime!
+}
+
+# The connection type for News.
+type NewsConnection {
+  # A list of nodes.
+  nodes: [News]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # Identifies the total count of items in the connection.
+  totalCount: Int!
+}
+
+# The availability state of a recording.
+enum RecordingState {
+  # Recording just got registered in the system
+  notPresent
+
+  # Recording received source URL
+  new
+
+  # Recording is downloading into the CDN
+  downloading
+
+  # Recording has finished downloading and is ready for distribution
+  downloaded
+}
+
+# A recording.
+type Recording implements Node {
+  id: ID!
+
+  # The conference this event belongs to.
+  conference: Conference
+
+  # The event this recording belongs to.
+  event: Event
+
+  # The height of this recording in px, if it is a video.
+  height: Int
+
+  # Whether this recording is a video with at least 720p resolution.
+  highQuality: Boolean
+
+  # The recordings's language, encoded as ISO 639-2.
+  language: String
+
+  # The recordings's duration in seconds.
+  duration: Int
+
+  # The recordings's mime type, e.g. video/mp4.
+  mimeType: String
+
+  # A URL pointing to the CDN location of this recording.
+  recordingUrl: URI
+
+  # The recording's approximate size in megabytes.
+  size: Int
+
+  # The recording's availability state. Wait for "downloaded".
+  state: RecordingState!
+
+  # Identifies the date and time when the object was last updated.
+  updatedAt: DateTime!
+
+  # The width of this recording in px, if it is a video.
+  width: Int
+}
+
+# The connection type for Recording.
+type RecordingConnection {
+  # A list of nodes.
+  nodes: [Recording]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # Identifies the total count of items in the connection.
+  totalCount: Int!
+}
+
+# Ways in which lists of events can be ordered upon return.
+input EventOrder {
+  # The direction in which to order events by the specified field.
+  direction: OrderDirection!
+
+  # The field in which to order events by.
+  field: EventOrderField!
+}
+
+# Properties by which event connections can be ordered.
+enum EventOrderField {
+  # Order events by date
+  date
+
+  # Order events by duration
+  duration
+
+  # Order events by release date
+  releaseDate
+
+  # Order events by amount of views
+  viewCount
+}
+
+# An event / a lecture.
+type Event implements Node {
+  id: ID!
+
+  # The conference this event belongs to.
+  conference: Conference
+
+  # Identifies the date and time when the event took place.
+  date: DateTime
+
+  # The event's description.
+  description: String
+
+  # The event's duration in seconds.
+  duration: Int
+
+  # A URL pointing to the event's website.
+  link: URI
+
+  # The event's original language, encoded as ISO 639-2.
+  originalLanguage: String
+
+  # Names of persons that held the event.
+  persons: [String]
+
+  # A URL pointing to a preview/poster image of the event.
+  posterUrl: URI
+
+  # Whether the event is promoted right now.
+  promoted: Boolean
+
+  # A list of recordings at this event.
+  recordings(
+    # Skip the first _n_ edges
+    offset: Int
+
+    # Limit the amount of returned edges
+    limit: Int
+  ): RecordingConnection!
+
+  # A list of related events, ordered by decreasing relevance.
+  relatedEvents(
+    # Skip the first _n_ related events.
+    offset: Int
+
+    # Limit the amount of returned related events.
+    limit: Int
+  ): EventConnection!
+
+  # Identifies the date when the event got released.
+  releaseDate: Date
+
+  # The URL slug of this event.
+  slug: String
+
+  # The event's subtitle that may be displayed below the title.
+  subtitle: String
+
+  # Tags/keywords describing the event.
+  tags: [String]
+
+  # A URL pointing to a thumbnail describing the event.
+  thumbUrl: URI
+
+  # The title of this event.
+  title: String
+
+  # Identifies the date and time when the object was last updated.
+  updatedAt: DateTime
+
+  # The amount of views of this event.
+  viewCount: Int
+}
+
+# The connection type for Event.
+type EventConnection {
+  # A list of nodes.
+  nodes: [Event]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # Identifies the total count of items in the connection.
+  totalCount: Int!
+}
+
+# Ways in which lists of conferences can be ordered upon return.
+input ConferenceOrder {
+  # The direction in which to order conferences by the specified field.
+  direction: OrderDirection!
+
+  # The field in which to order conferences by.
+  field: ConferenceOrderField!
+}
+
+# Properties by which conference connections can be ordered.
+enum ConferenceOrderField {
+  # Order conferences by last event release time
+  eventLastReleasedAt
+
+  # Order conferences by update time
+  updatedAt
+}
+
+# A group of multiple Events, e.g. a conference, lecture series, ...
+type Conference implements Node {
+  id: ID!
+
+  # The acronym of this conference, e.g. 35c3.
+  acronym: String!
+
+  # The aspect ratio of the conference's recordings.
+  aspectRatio: String
+
+  # Identifies the date and time when a event was last released.
+  eventLastReleasedAt: Date
+
+  # A URL pointing to the conference's logo.
+  logoUrl: URI
+
+  # A URL pointing to the root of all recording files of this conference.
+  recordingsUrl: String
+
+  # A URL pointing to the conference's frab xml schedule.
+  scheduleUrl: String
+
+  # The URL slug of this conference.
+  slug: String
+
+  # The title of this conference.
+  title: String
+
+  # Identifies the date and time when the object was last updated.
+  updatedAt: DateTime
+
+  # A list of events that took place at this conference.
+  events(
+    # Skip the first _n_ edges.
+    offset: Int
+
+    # Limit the amount of returned edges.
+    limit: Int
+
+    # Ordering options for events returned from the connection.
+    orderBy: EventOrder
+  ): EventConnection!
+}
+
+# The connection type for Conference.
+type ConferenceConnection {
+  # A list of nodes.
+  nodes: [Conference]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # Identifies the total count of items in the connection.
+  totalCount: Int!
+}
+
+# The query root.
+type Query {
+  # Fetch a list of mirrors.
+  mirrors(
+    # Skip the first _n_ edges.
+    offset: Int
+
+    # Limit the amount of returned edges.
+    limit: Int
+
+    # Ordering options for mirrors returned from the connection.
+    orderBy: MirrorOrder
+  ): MirrorConnection!
+
+  # Look up a mirror.
+  mirror(
+    # The mirror's ID.
+    id: ID!
+  ): Mirror
+
+  # Fetch a list of news.
+  news(
+    # Skip the first _n_ edges.
+    offset: Int
+
+    # Limit the amount of returned edges.
+    limit: Int
+
+    # Ordering options for news returned from the connection.
+    orderBy: NewsOrder
+  ): NewsConnection!
+
+  # Fetches an object given its ID.
+  node(
+    # ID of the object.
+    id: ID!
+  ): Node
+
+  # Fetch a list of conferences.
+  conferences(
+    # Skip the first _n_ edges.
+    offset: Int
+
+    # Limit the amount of returned edges.
+    limit: Int
+
+    # Ordering options for conferences returned from the connection.
+    orderBy: ConferenceOrder
+  ): ConferenceConnection!
+
+  # Look up a conference.
+  conference(
+    # The conference's ID or acronym.
+    id: ID!
+  ): Conference
+
+  # Fetch a list of events.
+  events(
+    # Skip the first _n_ edges.
+    offset: Int
+
+    # Limit the amount of returned edges.
+    limit: Int
+
+    # Ordering options for events returned from the connection.
+    orderBy: EventOrder
+  ): EventConnection!
+
+  # Fetch a list of promoted events.
+  eventsPromoted(
+    # Skip the first _n_ edges.
+    offset: Int
+
+    # Limit the amount of returned edges.
+    limit: Int
+  ): EventConnection!
+
+  # Perform a search on events.
+  eventsSearch(
+    # Skip the first _n_ edges.
+    offset: Int
+
+    # Limit the amount of returned edges.
+    limit: Int
+
+    # The search string to look for.
+    query: String!
+  ): EventConnection!
+
+  # Look up an event.
+  event(
+    # The event's ID or slug.
+    id: ID!
+  ): Event
+
+  # Look up a recording.
+  recording(
+    # The recording's ID.
+    id: ID!
+  ): Recording
+}

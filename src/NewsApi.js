@@ -1,27 +1,32 @@
-const fastXMLParser = require("fast-xml-parser");
-const { RESTDataSource } = require("apollo-datasource-rest");
+import fastXMLParser from "fast-xml-parser";
+import { RESTDataSource } from "apollo-datasource-rest";
 
+import { orderObjArray, makeConnectionResponseFromArray } from "./helpers";
+
+/* Override Cache-Control headers */
 const cacheOptions = { ttl: 60 * 10 };
+
+/* Default amount of nodes per page */
+const defaultLimit = 25;
 
 class NewsApi extends RESTDataSource {
   constructor() {
     super();
-    this.baseURL = "https://media.ccc.de/news.atom";
+    this.baseURL = "https://media.ccc.de/";
   }
 
-  async getNews() {
-    const data = await this.get("https://media.ccc.de/news.atom", null, {
+  async getNews(offset = 0, limit = defaultLimit, orderBy) {
+    const data = await this.get("/news.atom", null, {
       cacheOptions
     });
     const entries = fastXMLParser.parse(data).feed.entry;
 
-    // do the mapping here so our order function works
-    return entries.map(e => ({
-      ...e,
-      createdAt: e.published,
-      updatedAt: e.updated
-    }));
+    return makeConnectionResponseFromArray(
+      entries.sort(orderObjArray(orderBy)),
+      offset,
+      limit
+    );
   }
 }
 
-module.exports = NewsApi;
+export default NewsApi;

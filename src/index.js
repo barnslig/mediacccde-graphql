@@ -1,10 +1,11 @@
-const { ApolloServer } = require("apollo-server");
+import { ApolloServer } from "apollo-server";
 
-const MediaApi = require("./MediaApi");
-const MirrorApi = require("./MirrorApi");
-const NewsApi = require("./NewsApi");
-const resolvers = require("./resolvers");
-const typeDefs = require("./typeDefs");
+import MediaApi from "./MediaApi";
+import MirrorApi from "./MirrorApi";
+import NewsApi from "./NewsApi";
+
+import resolvers from "./resolvers";
+import typeDefs from "./schema.graphql";
 
 const server = new ApolloServer({
   typeDefs,

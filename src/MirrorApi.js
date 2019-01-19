@@ -1,6 +1,13 @@
-const { RESTDataSource } = require("apollo-datasource-rest");
+import { RESTDataSource } from "apollo-datasource-rest";
 
-const camelizeObj = require("./camelizeObj");
+import {
+  camelizeObj,
+  orderObjArray,
+  makeConnectionResponseFromArray
+} from "./helpers";
+
+/* Default amount of nodes per page */
+const defaultLimit = 25;
 
 class MirrorApi extends RESTDataSource {
   constructor() {
@@ -8,15 +15,21 @@ class MirrorApi extends RESTDataSource {
     this.baseURL = "https://cdn-api.media.ccc.de/";
   }
 
-  async getMirrors() {
+  async getMirrors(offset = 0, limit = defaultLimit, orderBy) {
     const data = await this.get("/");
-    return data.MirrorList.map(m => camelizeObj(m));
+
+    return makeConnectionResponseFromArray(
+      data.MirrorList.sort(orderObjArray(orderBy)),
+      offset,
+      limit
+    );
   }
 
   async getMirror(id) {
-    const mirrors = await this.getMirrors();
-    return mirrors.find(m => m.id === id);
+    const data = await this.get("/");
+
+    return camelizeObj(data.MirrorList.find(m => m.ID === id));
   }
 }
 
-module.exports = MirrorApi;
+export default MirrorApi;
