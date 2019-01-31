@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>CCC media team</name>
+  </author>
+  <icon>https://media.ccc.de/favicon.ico</icon>
+  <id>media.ccc.de,news</id>
+  <link href="https://media.ccc.de/news.atom"
+    rel="self"
+    type="application/atom+xml"/>
+  <logo>https://media.ccc.de/assets/frontend/voctocat-0f82f1c9f2ff6a8f98df34edabc33a69086eb7f4d6f5afa813330bd0a0c50c21.svg</logo>
+  <title>media.ccc.de - NEWS</title>
+  <updated>2019-01-20T20:00:03Z</updated>
+  <entry>
+    <content type="html">&lt;p&gt;Dank&amp;nbsp;blinry hat media.ccc.de nun&amp;nbsp;ein neues Icon: &lt;a href=&quot;https://morr.cc/voctocat/&quot;&gt;die Voctocat&lt;/a&gt;. Auch Verbesserungsideen? &amp;rarr; Voctoweb, die Software hinter media.ccc.de &lt;a href=&quot;https://github.com/voc/voctoweb&quot;&gt;auf GitHub&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2017-03-06:31</id>
+    <link href="https://media.ccc.de"/>
+    <published>2017-03-06T18:20:33.37912Z</published>
+    <title>Neues Logo \o/</title>
+    <updated>2017-03-07T09:36:30.034798Z</updated>
+    <dc:date>2017-03-07T09:36:30.034798Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Wir bedanken uns recht herzlich bei&amp;nbsp;&lt;a href=&quot;http://www.stickma.de&quot;&gt;stickma.de&lt;/a&gt;&amp;nbsp;f&amp;uuml;r das kostenlose Bereitstellen von 2000 &quot;media.ccc.de and chill&quot; Stickern.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Das VOC-Team wird diese bei den n&amp;auml;chsten Events dabei haben und verteilen.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2017-01-26:30</id>
+    <link href="https://media.ccc.de"/>
+    <published>2017-01-26T21:28:54.897836Z</published>
+    <title>media.ccc.de and chill</title>
+    <updated>2017-01-26T21:28:54.897836Z</updated>
+    <dc:date>2017-01-26T21:28:54.897836Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;We&amp;rsquo;ve released all 147 videos that we recorded on 33C3 &amp;ndash; view them on &lt;a href=&quot;https://media.ccc.de/c/33c3&quot;&gt;https://media.ccc.de/c/33c3&lt;/a&gt;.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2017-01-08:29</id>
+    <link href="https://media.ccc.de"/>
+    <published>2017-01-08T09:01:53.872987Z</published>
+    <title>This is it: 33C3</title>
+    <updated>2017-01-14T21:08:13.510273Z</updated>
+    <dc:date>2017-01-14T21:08:13.510273Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;P&amp;uuml;nktlich zum Congress hat &lt;a href=&quot;https://media.ccc.de/&quot;&gt;media.ccc.de&lt;/a&gt; ein Facelifting bekommen und pr&amp;auml;sentiert sich mit einer neu gestalteten Startseite sowie einer&amp;nbsp;&amp;uuml;berarbeiteten Download-Sektion. Auch haben wir etliche kleinere Bugs behoben.&amp;nbsp;Wir hoffen, dass euch die neue Aufmachung&amp;nbsp;gef&amp;auml;llt und&amp;nbsp;freuen uns auf einen spannenden 33C3.&lt;/p&gt;
+&lt;p&gt;Sollten euch Probleme auffallen, &amp;ouml;ffnet doch bitte ein Ticket in unserem &lt;a href=&quot;https://github.com/voc/voctoweb/issues&quot;&gt;Bugtracker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Euer media.ccc.de Team.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2016-12-14:28</id>
+    <link href="https://media.ccc.de"/>
+    <published>2016-12-13T23:05:11.187036Z</published>
+    <title>33C3 Facelifting</title>
+    <updated>2017-01-26T16:04:40.440555Z</updated>
+    <dc:date>2017-01-26T16:04:40.440555Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Es gab viel zu tun und wir sind garnicht dazu gekommen eine News zu schreiben.&lt;/p&gt;
+&lt;p&gt;Daher gibt es heute ein gro&amp;szlig;es Update mit den Events der letzten Monate.&lt;/p&gt;
+&lt;p&gt;QtCon16&amp;nbsp;&lt;a href=&quot;https://conf.qtcon.org/en/qtcon/public/schedule&quot;&gt;Videos im Frab verlinkt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;guadec2016&amp;nbsp;&lt;a href=&quot;https://media.ccc.de/b/conferences/guadec/2016&quot;&gt;media.ccc.de/b/conferences/guadec/2016&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;froscon2016&amp;nbsp;&lt;a href=&quot;https://media.ccc.de/c/froscon2016&quot;&gt;media.ccc.de/c/froscon2016&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;mrmcd16&amp;nbsp;&lt;a href=&quot;https://media.ccc.de/c/mrmcd16&quot;&gt;media.ccc.de/c/mrmcd16&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;ownCloud Contributor Conference 2016&amp;nbsp;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLtZe22ggl2YBVYQQ5rMzMi7uFnXHUA0Qg&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;systemd.conf 2016&amp;nbsp;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLRahGCl6IoghX2Ls0zDXAHhm84BfKomqT&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;vcfb2016&amp;nbsp;&lt;a href=&quot;https://media.ccc.de/c/vcfb2016&quot;&gt;media.ccc.de/c/vcfb2016&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Viel Spa&amp;szlig; beim Anschauen!&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2016-10-02:27</id>
+    <link href="https://media.ccc.de"/>
+    <published>2016-10-02T15:31:44.880482Z</published>
+    <title>Summer of VOC</title>
+    <updated>2016-10-18T22:40:36.147143Z</updated>
+    <dc:date>2016-10-18T22:40:36.147143Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: xx-small;&quot;&gt;The C3VOC has left Europe mainland to cover the beautifully EMF camp in Guildford,UK.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: xx-small;&quot;&gt;This is the first time we leave the German speaking part of Europe and well, it seems to work.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;So please enjoy the releases on &lt;a href=&quot;https://media.ccc.de/c/emf16&quot;&gt;https://media.ccc.de/c/emf16&lt;/a&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2016-08-06:26</id>
+    <link href="https://media.ccc.de"/>
+    <published>2016-08-06T18:34:22.05256Z</published>
+    <title>EMF Camp 2016 </title>
+    <updated>2016-08-30T16:01:34.283348Z</updated>
+    <dc:date>2016-08-30T16:01:34.283348Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;The &lt;a href=&quot;https://events.opensuse.org/conference/oSC16/&quot;&gt;openSUSE conference 2016&lt;/a&gt;&amp;nbsp;has finished and all recordings are now &lt;a href=&quot;https://media.ccc.de/c/osc16&quot;&gt;available&lt;/a&gt;.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2016-06-22:25</id>
+    <link href="https://media.ccc.de"/>
+    <published>2016-06-22T11:00:07.523488Z</published>
+    <title>openSUSE conference 2016 recordings available</title>
+    <updated>2016-07-08T17:20:57.096049Z</updated>
+    <dc:date>2016-07-08T17:20:57.096049Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Nach einem tollen Wochenende auf der @cbase haben wir nun f&amp;uuml;r euch die Recordings der #miniLAC&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://media.ccc.de/c/minilac16&quot;&gt;https://media.ccc.de/c/minilac16&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2016-04-12:24</id>
+    <link href="https://media.ccc.de"/>
+    <published>2016-04-12T08:33:01.853663Z</published>
+    <title>miniLAC 16 recordings online</title>
+    <updated>2016-04-12T08:33:25.057029Z</updated>
+    <dc:date>2016-04-12T08:33:25.057029Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Die Recordings vom Easterhegg 16 haben ihren Weg auf media.ccc.de gefunden.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://media.ccc.de/c/eh16&quot;&gt;https://media.ccc.de/c/eh16&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;F&amp;uuml;r alle die diese&amp;nbsp;schon auf der R&amp;uuml;ckfahrt durchgeguckt haben hat der CCCFFM&lt;/p&gt;
+&lt;p&gt;gleich f&amp;uuml;r Nachschub gesorgt und zwei Talks vorbei geschickt&amp;nbsp;&lt;a href=&quot;https://media.ccc.de/b/events/cccffm&quot;&gt;https://media.ccc.de/b/events/cccffm&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2016-03-28:23</id>
+    <link href="https://media.ccc.de"/>
+    <published>2016-03-28T19:31:16.404323Z</published>
+    <title>Recordings vom Easterhegg 16 sowei zwei Talks vom CCCFFM online</title>
+    <updated>2016-03-28T19:31:16.404323Z</updated>
+    <dc:date>2016-03-28T19:31:16.404323Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Die Recordings findet ihr nun unter &lt;a href=&quot;https://media.ccc.de/c/routingdays16&quot;&gt;https://media.ccc.de/c/routingdays16&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2016-02-22:22</id>
+    <link href="https://media.ccc.de"/>
+    <published>2016-02-22T15:50:31.769728Z</published>
+    <title>Freifunk Rheinland RoutingDays 2016 veröffentlicht</title>
+    <updated>2016-02-22T16:37:36.35636Z</updated>
+    <dc:date>2016-02-22T16:37:36.35636Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;We are happy to present the first recordings of the 32. chaos communication congress&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://media.ccc.de/c/32c3&quot;&gt;here&lt;/a&gt; . If the talk you are looking for is not yet on media please have&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;a look at our video on demand portal &lt;a href=&quot;https://streaming.media.ccc.de/32c3/relive/&quot;&gt;relive&lt;/a&gt;&amp;nbsp;.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2015-12-27:21</id>
+    <link href="https://media.ccc.de"/>
+    <published>2015-12-27T21:46:27.006511Z</published>
+    <title>32C3: First recordings online</title>
+    <updated>2015-12-27T21:47:31.431407Z</updated>
+    <dc:date>2015-12-27T21:47:31.431407Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">You may not be aware that media.ccc.de is not only a shiny website but also runs a CDN ( &lt;a href=&quot;https://cdn.media.ccc.de/&quot;&gt;cdn.media.ccc.de&lt;/a&gt; ) which contains even more recordings
+than you currently can find in the frontend.&lt;br&gt;
+Bringing this old archives to the light of searchable website with meta data is a project with all the joy of walking barefoot on LEGOs. &lt;br&gt;
+The first result of this work are 21 talks from the &lt;a href=&quot;https://media.ccc.de/c/froscon2012&quot;&gt;FrOSCon 2012 &lt;/a&gt;.&lt;br&gt;
+We will bring more recordings to the frontend over the next months and also publish files that for now are only available in one codec
+in a number of codecs to fulfill the needs of all the tiny mediaplayer thingies out there.
+
+</content>
+    <id>tag:media.ccc.de,2015-10-20:20</id>
+    <link href="https://media.ccc.de"/>
+    <published>2015-10-20T10:07:56.05949Z</published>
+    <title>Digging through the archives</title>
+    <updated>2015-10-20T10:07:56.05949Z</updated>
+    <dc:date>2015-10-20T10:07:56.05949Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">media.ccc.de offers video playback since 2008. Today we launched our &lt;a href=&quot;https://github.com/voc/media.ccc.de&quot;&gt;third major rewrite&lt;/a&gt;. As usual this means a new URL scheme and lots of 404 errors. We're watching the logs and will add some permanent redirects later.&lt;br/&gt;
+
+Changes:&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;A popup menu shows all available feeds for a given page.&lt;/li&gt;
+&lt;li&gt;An audio-only podcast feed was added to the main feed menu.&lt;/li&gt;
+&lt;li&gt;Broadcatching feeds are gone until we find a better solution for torrents.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <id>tag:media.ccc.de,2015-10-18:19</id>
+    <link href="https://media.ccc.de"/>
+    <published>2015-10-18T16:15:44.164368Z</published>
+    <title>Software Upgrade</title>
+    <updated>2015-10-18T16:15:44.164368Z</updated>
+    <dc:date>2015-10-18T16:15:44.164368Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">Over the last month we have got so much new content that we didn't found the time to write a news about it.
+Some of the content is produced by the VOC some came from our friends.
+So here is a short list of the last updates:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://media.ccc.de/browse/conferences/vcfb/2015/index.html&quot;&gt;VCFB 15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;https://media.ccc.de/browse/conferences/netzpolitik/11np/index.html&quot;&gt;Das ist Netzpolitik! 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;https://media.ccc.de/browse/conferences/mrmcd/mrmcd15/index.html&quot;&gt;MRMD 15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;https://media.ccc.de/browse/conferences/froscon/2015/index.html&quot;&gt;FrOSCon 15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;https://media.ccc.de/browse/conferences/camp2015/index.html&quot;&gt;CCCamp 15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;https://media.ccc.de/browse/events/datengarten/index.html&quot;&gt;Some Datengärten&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+One of the most comfy ways to watch all this is the ccc plugin for &lt;a href=&quot;https://kodi.tv&quot;&gt;kodi (xbmc)&lt;/a&gt; which you can now find in the
+official plugin repository. Have a look at the &lt;a href=&quot;https://media.ccc.de/about.html&quot;&gt;about page&lt;/a&gt; for more information
+on how to use media.ccc.de.</content>
+    <id>tag:media.ccc.de,2015-10-04:18</id>
+    <link href="https://media.ccc.de"/>
+    <published>2015-10-04T16:27:58.534069Z</published>
+    <title>Updates updates updates</title>
+    <updated>2015-10-06T13:05:56.214982Z</updated>
+    <dc:date>2015-10-06T13:05:56.214982Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Unter dem Motto &amp;raquo;The Edge of Control&amp;laquo; trafen sich Medienk&amp;uuml;nstler und Hacktivisten vom 15. bis 17. Mai 2015 in der Kunsthochschule f&amp;uuml;r Medien in K&amp;ouml;ln zur ersten &lt;a href=&quot;http://chaos.cologne&quot;&gt;Chaos.Cologne Konferenz&lt;/a&gt;. Alle aufgezeichneten Vortr&amp;auml;ge des &lt;a href=&quot;http://chaos.cologne/Fahrplan/&quot;&gt;Vortragsprogramms&lt;/a&gt; befinden sich unter &lt;a href=&quot;/c/1c2&quot;&gt;chaoscologne&lt;/a&gt;.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2015-05-18:17</id>
+    <link href="https://media.ccc.de"/>
+    <published>2015-05-18T12:30:11.686602Z</published>
+    <title>[1c2] Chaos.Cologne - The Edge of Control</title>
+    <updated>2015-11-06T14:19:51.053267Z</updated>
+    <dc:date>2015-11-06T14:19:51.053267Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Dieses Jahr wurde das &lt;a href=&quot;http://sublab.org&quot;&gt;Sublab&lt;/a&gt; in Leipzig bei der &lt;a href=&quot;https://cryptocon.org/15/&quot;&gt;CryptoCon&lt;/a&gt; erstmals vom C3VOC unterst&amp;uuml;tzt. Die Vortr&amp;auml;ge findet ihr unter &lt;a href=&quot;/c/cc15&quot;&gt;Conferences -&amp;gt; CryptoCon -&amp;gt; 2015&lt;/a&gt;.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2015-05-10:16</id>
+    <link href="https://media.ccc.de"/>
+    <published>2015-05-10T20:50:42.494823Z</published>
+    <title>CryptoCon 2015 </title>
+    <updated>2015-11-06T14:22:28.000154Z</updated>
+    <dc:date>2015-11-06T14:22:28.000154Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Die Mitschnitte vom diesj&amp;auml;hrigen Easterhegg in Braunschweig befinden sich unter &lt;a href=&quot;/c/eh15/&quot;&gt;Conferences -&amp;gt; EH2015&lt;/a&gt;.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2015-04-05:15</id>
+    <link href="https://media.ccc.de"/>
+    <published>2015-04-05T08:43:18.591723Z</published>
+    <title>Easterhegg 2015 </title>
+    <updated>2015-11-06T14:23:40.418801Z</updated>
+    <dc:date>2015-11-06T14:23:40.418801Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">In den letzten Monaten haben ein paar neue Formate auf media.ccc.de Einzug gehalten.
+Neben dem Chaosradio welches seid der 200dersten Folge mindestens jeden zweite Monat auch als Video erscheint produziert nun auch der CCCAC eine Vor­trags­rei­he in Farbe und Bunt.
+Darüber hinaus hat der erste aufgezeichnete Datengarten des CCCB seinen weg auf media.ccc.de gefunden.
+Das Chaosradio findet ihr in der Kategorie Broadcast die Erfa Produktionen unter Events.
+
+
+</content>
+    <id>tag:media.ccc.de,2015-03-26:14</id>
+    <link href="https://media.ccc.de"/>
+    <published>2015-03-26T09:01:14.951331Z</published>
+    <title>Datengarten, Vörträge aus Aachen und das Chaosradio</title>
+    <updated>2015-03-26T09:01:14.951331Z</updated>
+    <dc:date>2015-03-26T09:01:14.951331Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Live streams in various format can be found at &lt;a href=&quot;http://streaming.media.ccc.de&quot;&gt;streaming.media.ccc.de&lt;/a&gt;. For more information see &lt;a href=&quot;http://events.ccc.de/2014/12/15/video-live-streams-and-recordings-at-31c3/&quot;&gt;this years events.ccc.de blog post&lt;/a&gt;. Recordings will pop up at &lt;a href=&quot;/c/31c3&quot;&gt;https://media.ccc.de/c/31c3&lt;/a&gt; when they are done.&lt;/p&gt;</content>
+    <id>tag:media.ccc.de,2014-12-24:13</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-12-24T22:49:04.004255Z</published>
+    <title>31C3</title>
+    <updated>2015-11-06T14:25:29.003133Z</updated>
+    <dc:date>2015-11-06T14:25:29.003133Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">Das Recording vom 30 Jahre BTX Hack event von &lt;a href=&quot;https://twitter.com/wauland&quot;&gt;@wauland&lt;/a&gt; ist nun &lt;a href=&quot;http://media.ccc.de/browse/events/wauland/30JahreBTXHack.html#video&quot;&gt;hier&lt;/a&gt; zu finden</content>
+    <id>tag:media.ccc.de,2014-11-25:12</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-11-25T21:26:29.546041Z</published>
+    <title>30 Jahre BTX Hack online</title>
+    <updated>2014-11-30T02:23:25.448375Z</updated>
+    <dc:date>2014-11-30T02:23:25.448375Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">Die ersten Talks der &lt;a href=&quot;http://www.fiffkon.de&quot;&gt;FIfFkon 2014&lt;/a&gt; findet ihr &lt;a href=&quot;http://media.ccc.de/browse/conferences/fiffkon/2014/index.html&quot;&gt;hier &lt;/a&gt;</content>
+    <id>tag:media.ccc.de,2014-11-07:11</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-11-07T19:07:37.807129Z</published>
+    <title>FIfFkon 2014 - erste talks online</title>
+    <updated>2014-11-07T19:33:33.513947Z</updated>
+    <dc:date>2014-11-07T19:33:33.513947Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">Die Recordings der &lt;a href=https://www.datenspuren.de/2014/&gt;Datenspuren 2014&lt;/a&gt; sind nun unter &lt;a href=&quot;http://media.ccc.de/browse/conferences/datenspuren/2014/index.html&quot;&gt; datenspuren2014 &lt;/a&gt; zu finden.</content>
+    <id>tag:media.ccc.de,2014-11-05:10</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-11-05T13:44:40.196489Z</published>
+    <title>Datenspuren 2014 released</title>
+    <updated>2014-11-05T13:44:40.196489Z</updated>
+    <dc:date>2014-11-05T13:44:40.196489Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">Recorded talks from &lt;a href=&quot;http://vcfb.de/2014/&quot;&gt;Vintage Computing Festival Berlin&lt;/a&gt; are now &lt;a href=&quot;//media.ccc.de/browse/conferences/vcfb/2014/&quot;&gt;online&lt;/a&gt;.
+
+Have fun!</content>
+    <id>tag:media.ccc.de,2014-11-03:9</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-11-03T17:06:20.87182Z</published>
+    <title>Vintage Computing Festival Berlin Recordings online</title>
+    <updated>2014-11-05T00:00:21.831238Z</updated>
+    <dc:date>2014-11-05T00:00:21.831238Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">All recorded talks from &lt;a href=&quot;//hackover.de/&quot;&gt;Hackover 2014&lt;/a&gt; room 1.7 can be found at &lt;a href=&quot;//media.ccc.de/browse/conferences/hackover/2014/&quot;&gt;conferences/hackover/2014&lt;/a&gt;.</content>
+    <id>tag:media.ccc.de,2014-10-26:8</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-10-26T20:45:15.974333Z</published>
+    <title>Hackover 2014</title>
+    <updated>2014-10-26T20:45:15.974333Z</updated>
+    <dc:date>2014-10-26T20:45:15.974333Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">The talks from MRMCD 2014 can be found at &lt;a href=&quot;//media.ccc.de/browse/conferences/mrmcd/mrmcd14/&quot;&gt;conferences/mrmcd/mrmcd14&lt;/a&gt;.</content>
+    <id>tag:media.ccc.de,2014-09-06:7</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-09-06T17:10:15.405561Z</published>
+    <title>MRMCD2014 talks</title>
+    <updated>2014-09-08T12:15:27.867004Z</updated>
+    <dc:date>2014-09-08T12:15:27.867004Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">The FrOSCon 2014 is over. Enjoy the &lt;a href=&quot;//media.ccc.de/browse/conferences/froscon/2014/&quot;&gt;recordings&lt;/a&gt;!</content>
+    <id>tag:media.ccc.de,2014-08-24:6</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-08-24T17:38:53.34246Z</published>
+    <title>FrOSCon 2014 published</title>
+    <updated>2014-08-24T19:50:14.466104Z</updated>
+    <dc:date>2014-08-24T19:50:14.466104Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">All recorded &lt;a href=&quot;//entropia.de/GPN14&quot;&gt;GPN14&lt;/a&gt; talks are &lt;a href=&quot;//media.ccc.de/browse/conferences/gpn/gpn14/&quot;&gt;available&lt;/a&gt; from now on.</content>
+    <id>tag:media.ccc.de,2014-06-25:5</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-06-25T15:32:27.1269Z</published>
+    <title>Gulaschprogrammiernacht 14</title>
+    <updated>2014-06-25T15:32:27.1269Z</updated>
+    <dc:date>2014-06-25T15:32:27.1269Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">&lt;p&gt;Big thanks to everyone involved! We successfully switched to the new hardware.&lt;/p&gt;
+
+&lt;p&gt;There are still some of the smaller folders missing, but we're working on it.&lt;/p&gt;
+
+&lt;p&gt;
+In the meantime you can take a look at our &lt;a href=&quot;/about.html&quot;&gt;mirror status table&lt;/a&gt;, that is if you ignore SSL errors.
+If you want to stay up to date with media news, you can subscribe to our  new atom &lt;a href=&quot;/news.atom&quot;&gt;news feed&lt;/a&gt;.
+&lt;/p&gt;
+
+Besides our existing feeds, we now offer an experimental public &lt;a href=&quot;https://api.media.ccc.de/public/conferences?format=json&quot;&gt;JSON API&lt;/a&gt; for all the recordings.</content>
+    <id>tag:media.ccc.de,2014-06-01:4</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-05-31T22:15:37.998236Z</published>
+    <title>New Hardware</title>
+    <updated>2014-05-31T22:29:27.284677Z</updated>
+    <dc:date>2014-05-31T22:29:27.284677Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">Over the next weeks media.ccc.de will be updated. The upgrade involves new hardware and a new frontend.
+
+&lt;p&gt;
+With regards to the frontend, I'm afraid some features will be lost by the upgrade and may never return, like FLV with flash player.
+Some of the more obscure video folders won't be part of the initial import.
+However they will get imported and probably re-encoded for HTML5 eventually.
+&lt;/p&gt;
+
+The &lt;a href=&quot;http://cdn.media.ccc.de&quot;&gt;CDN&lt;/a&gt; should have a minimal downtime only while we change the machine.</content>
+    <id>tag:media.ccc.de,2014-05-10:3</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-05-10T13:31:13.909942Z</published>
+    <title>New Media</title>
+    <updated>2014-05-10T13:31:13.909942Z</updated>
+    <dc:date>2014-05-10T13:31:13.909942Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">The &lt;a href=&quot;http://media.ccc.de/browse/congress/2013&quot;&gt;30C3 video recording&lt;/a&gt; release process has started.</content>
+    <id>tag:media.ccc.de,2014-05-10:2</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-05-10T13:31:13.901941Z</published>
+    <title> 30C3 Recordings Release</title>
+    <updated>2014-05-10T13:31:13.901941Z</updated>
+    <dc:date>2014-05-10T13:31:13.901941Z</dc:date>
+  </entry>
+  <entry>
+    <content type="html">The new CDN allows us to serve torrents for all the videos. Torrent links have been added to all video pages.</content>
+    <id>tag:media.ccc.de,2014-05-10:1</id>
+    <link href="https://media.ccc.de"/>
+    <published>2014-05-10T13:31:13.889961Z</published>
+    <title>Torrents</title>
+    <updated>2014-05-10T13:31:13.889961Z</updated>
+    <dc:date>2014-05-10T13:31:13.889961Z</dc:date>
+  </entry>
+  <dc:date>2019-01-20T20:00:03Z</dc:date>
+</feed>
