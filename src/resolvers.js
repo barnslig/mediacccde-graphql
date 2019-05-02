@@ -15,7 +15,7 @@ const resolvers = {
         return "Mirror";
       }
 
-      if (obj.url && obj.url.indexOf("/public/cofnerences/") > -1) {
+      if (obj.url && obj.url.indexOf("/public/conferences/") > -1) {
         return "Conference";
       }
 
