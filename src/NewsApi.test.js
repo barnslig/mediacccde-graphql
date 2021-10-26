@@ -1,5 +1,4 @@
 import { ApolloServer, gql } from "apollo-server";
-import { createTestClient } from "apollo-server-testing";
 import { join } from "path";
 import { readFileSync } from "fs";
 
@@ -13,7 +12,7 @@ const NewsApiMockData = readFileSync(
 ).toString();
 
 const newsApi = new NewsApi();
-newsApi.get = jest.fn(path => {
+newsApi.get = jest.fn((path) => {
   if (path !== "/news.atom") {
     throw new Error(`Unexpected request path: ${path}`);
   }
@@ -25,11 +24,9 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   dataSources: () => ({
-    NewsApi: newsApi
-  })
+    NewsApi: newsApi,
+  }),
 });
-
-const { query } = createTestClient(server);
 
 test("getNews", async () => {
   const newsQuery = gql`
@@ -53,6 +50,6 @@ test("getNews", async () => {
     }
   `;
 
-  const res = await query({ query: newsQuery });
+  const res = await server.executeOperation({ query: newsQuery });
   expect(res).toMatchSnapshot();
 });

@@ -1,4 +1,4 @@
-import { GraphQLDate, GraphQLDateTime } from "graphql-iso-date";
+import { GraphQLDate, GraphQLDateTime } from "graphql-scalars";
 
 const resolvers = {
   Date: GraphQLDate,
@@ -6,7 +6,7 @@ const resolvers = {
   DateTime: GraphQLDateTime,
 
   Node: {
-    __resolveType: obj => {
+    __resolveType: (obj) => {
       if (obj.id && obj.id.slice(0, 16) === "tag:media.ccc.de") {
         return "News";
       }
@@ -28,19 +28,19 @@ const resolvers = {
       }
 
       return null;
-    }
+    },
   },
 
   News: {
-    id: _source => `news-${_source.id}`,
+    id: (_source) => `news-${_source.id}`,
 
-    createdAt: _source => _source.published,
+    createdAt: (_source) => _source.published,
 
-    updatedAt: _source => _source.updated
+    updatedAt: (_source) => _source.updated,
   },
 
   Conference: {
-    id: _source => `conference-${_source.url.split("/").slice(-1)[0]}`,
+    id: (_source) => `conference-${_source.url.split("/").slice(-1)[0]}`,
 
     events: async (_source, { offset, limit, orderBy }, { dataSources }) =>
       dataSources.MediaApi.getConferenceEvents(
@@ -48,11 +48,11 @@ const resolvers = {
         offset,
         limit,
         orderBy
-      )
+      ),
   },
 
   Event: {
-    id: _source => `event-${_source.guid}`,
+    id: (_source) => `event-${_source.guid}`,
 
     conference: async (_source, _params, { dataSources }) =>
       dataSources.MediaApi.getConference(
@@ -63,13 +63,13 @@ const resolvers = {
       dataSources.MediaApi.getEventRecordings(_source.guid, offset, limit),
 
     relatedEvents: async (_source, { offset, limit }, { dataSources }) =>
-      dataSources.MediaApi.getEventRelated(_source.guid, offset, limit)
+      dataSources.MediaApi.getEventRelated(_source.guid, offset, limit),
   },
 
   Recording: {
-    id: _source => `recording-${_source.url.split("/").slice(-1)[0]}`,
+    id: (_source) => `recording-${_source.url.split("/").slice(-1)[0]}`,
 
-    duration: _source => _source.length,
+    duration: (_source) => _source.length,
 
     event: async (_source, _params, { dataSources }) =>
       dataSources.MediaApi.getEvent(_source.eventUrl.split("/").slice(-1)[0]),
@@ -77,7 +77,7 @@ const resolvers = {
     conference: async (_source, _params, { dataSources }) =>
       dataSources.MediaApi.getConference(
         _source.conferenceUrl.split("/").slice(-1)[0]
-      )
+      ),
   },
 
   Query: {
@@ -132,8 +132,8 @@ const resolvers = {
     recording: async (_source, { id }, { dataSources }) => {
       const realId = id.slice(0, 10) === "recording-" ? id.slice(10) : id;
       return dataSources.MediaApi.getRecording(realId);
-    }
-  }
+    },
+  },
 };
 
 export default resolvers;

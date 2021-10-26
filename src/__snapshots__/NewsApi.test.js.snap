@@ -6,34 +6,35 @@ Object {
     "news": Object {
       "nodes": Array [
         Object {
-          "content": "&lt;p&gt;Dieses Jahr wurde das &lt;a href=&quot;http://sublab.org&quot;&gt;Sublab&lt;/a&gt; in Leipzig bei der &lt;a href=&quot;https://cryptocon.org/15/&quot;&gt;CryptoCon&lt;/a&gt; erstmals vom C3VOC unterst&amp;uuml;tzt. Die Vortr&amp;auml;ge findet ihr unter &lt;a href=&quot;/c/cc15&quot;&gt;Conferences -&amp;gt; CryptoCon -&amp;gt; 2015&lt;/a&gt;.&lt;/p&gt;",
-          "createdAt": "2015-05-10T20:50:42.494823Z",
-          "id": "news-tag:media.ccc.de,2015-05-10:16",
-          "title": "CryptoCon 2015",
-          "updatedAt": "2015-11-06T14:22:28.000154Z",
-        },
-        Object {
           "content": "&lt;p&gt;Dank&amp;nbsp;blinry hat media.ccc.de nun&amp;nbsp;ein neues Icon: &lt;a href=&quot;https://morr.cc/voctocat/&quot;&gt;die Voctocat&lt;/a&gt;. Auch Verbesserungsideen? &amp;rarr; Voctoweb, die Software hinter media.ccc.de &lt;a href=&quot;https://github.com/voc/voctoweb&quot;&gt;auf GitHub&lt;/a&gt;&lt;/p&gt;",
-          "createdAt": "2017-03-06T18:20:33.37912Z",
+          "createdAt": 2017-03-06T18:20:33.379Z,
           "id": "news-tag:media.ccc.de,2017-03-06:31",
           "title": "Neues Logo \\\\o/",
-          "updatedAt": "2017-03-07T09:36:30.034798Z",
+          "updatedAt": 2017-03-07T09:36:30.034Z,
+        },
+        Object {
+          "content": "&lt;p&gt;Wir bedanken uns recht herzlich bei&amp;nbsp;&lt;a href=&quot;http://www.stickma.de&quot;&gt;stickma.de&lt;/a&gt;&amp;nbsp;f&amp;uuml;r das kostenlose Bereitstellen von 2000 &quot;media.ccc.de and chill&quot; Stickern.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Das VOC-Team wird diese bei den n&amp;auml;chsten Events dabei haben und verteilen.&lt;/p&gt;",
+          "createdAt": 2017-01-26T21:28:54.897Z,
+          "id": "news-tag:media.ccc.de,2017-01-26:30",
+          "title": "media.ccc.de and chill",
+          "updatedAt": 2017-01-26T21:28:54.897Z,
         },
         Object {
           "content": "&lt;p&gt;We&amp;rsquo;ve released all 147 videos that we recorded on 33C3 &amp;ndash; view them on &lt;a href=&quot;https://media.ccc.de/c/33c3&quot;&gt;https://media.ccc.de/c/33c3&lt;/a&gt;.&lt;/p&gt;",
-          "createdAt": "2017-01-08T09:01:53.872987Z",
+          "createdAt": 2017-01-08T09:01:53.872Z,
           "id": "news-tag:media.ccc.de,2017-01-08:29",
           "title": "This is it: 33C3",
-          "updatedAt": "2017-01-14T21:08:13.510273Z",
+          "updatedAt": 2017-01-14T21:08:13.510Z,
         },
         Object {
           "content": "&lt;p&gt;P&amp;uuml;nktlich zum Congress hat &lt;a href=&quot;https://media.ccc.de/&quot;&gt;media.ccc.de&lt;/a&gt; ein Facelifting bekommen und pr&amp;auml;sentiert sich mit einer neu gestalteten Startseite sowie einer&amp;nbsp;&amp;uuml;berarbeiteten Download-Sektion. Auch haben wir etliche kleinere Bugs behoben.&amp;nbsp;Wir hoffen, dass euch die neue Aufmachung&amp;nbsp;gef&amp;auml;llt und&amp;nbsp;freuen uns auf einen spannenden 33C3.&lt;/p&gt;
 &lt;p&gt;Sollten euch Probleme auffallen, &amp;ouml;ffnet doch bitte ein Ticket in unserem &lt;a href=&quot;https://github.com/voc/voctoweb/issues&quot;&gt;Bugtracker&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Euer media.ccc.de Team.&lt;/p&gt;",
-          "createdAt": "2016-12-13T23:05:11.187036Z",
+          "createdAt": 2016-12-13T23:05:11.187Z,
           "id": "news-tag:media.ccc.de,2016-12-14:28",
           "title": "33C3 Facelifting",
-          "updatedAt": "2017-01-26T16:04:40.440555Z",
+          "updatedAt": 2017-01-26T16:04:40.440Z,
         },
         Object {
           "content": "&lt;p&gt;Es gab viel zu tun und wir sind garnicht dazu gekommen eine News zu schreiben.&lt;/p&gt;
@@ -47,61 +48,61 @@ Object {
 &lt;p&gt;vcfb2016&amp;nbsp;&lt;a href=&quot;https://media.ccc.de/c/vcfb2016&quot;&gt;media.ccc.de/c/vcfb2016&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Viel Spa&amp;szlig; beim Anschauen!&lt;/p&gt;",
-          "createdAt": "2016-10-02T15:31:44.880482Z",
+          "createdAt": 2016-10-02T15:31:44.880Z,
           "id": "news-tag:media.ccc.de,2016-10-02:27",
           "title": "Summer of VOC",
-          "updatedAt": "2016-10-18T22:40:36.147143Z",
+          "updatedAt": 2016-10-18T22:40:36.147Z,
         },
         Object {
           "content": "&lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: xx-small;&quot;&gt;The C3VOC has left Europe mainland to cover the beautifully EMF camp in Guildford,UK.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: xx-small;&quot;&gt;This is the first time we leave the German speaking part of Europe and well, it seems to work.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Verdana, Arial, Helvetica, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;So please enjoy the releases on &lt;a href=&quot;https://media.ccc.de/c/emf16&quot;&gt;https://media.ccc.de/c/emf16&lt;/a&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;",
-          "createdAt": "2016-08-06T18:34:22.05256Z",
+          "createdAt": 2016-08-06T18:34:22.052Z,
           "id": "news-tag:media.ccc.de,2016-08-06:26",
           "title": "EMF Camp 2016",
-          "updatedAt": "2016-08-30T16:01:34.283348Z",
+          "updatedAt": 2016-08-30T16:01:34.283Z,
         },
         Object {
           "content": "&lt;p&gt;The &lt;a href=&quot;https://events.opensuse.org/conference/oSC16/&quot;&gt;openSUSE conference 2016&lt;/a&gt;&amp;nbsp;has finished and all recordings are now &lt;a href=&quot;https://media.ccc.de/c/osc16&quot;&gt;available&lt;/a&gt;.&lt;/p&gt;",
-          "createdAt": "2016-06-22T11:00:07.523488Z",
+          "createdAt": 2016-06-22T11:00:07.523Z,
           "id": "news-tag:media.ccc.de,2016-06-22:25",
           "title": "openSUSE conference 2016 recordings available",
-          "updatedAt": "2016-07-08T17:20:57.096049Z",
+          "updatedAt": 2016-07-08T17:20:57.096Z,
         },
         Object {
           "content": "&lt;p&gt;Nach einem tollen Wochenende auf der @cbase haben wir nun f&amp;uuml;r euch die Recordings der #miniLAC&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://media.ccc.de/c/minilac16&quot;&gt;https://media.ccc.de/c/minilac16&lt;/a&gt;&lt;/p&gt;",
-          "createdAt": "2016-04-12T08:33:01.853663Z",
+          "createdAt": 2016-04-12T08:33:01.853Z,
           "id": "news-tag:media.ccc.de,2016-04-12:24",
           "title": "miniLAC 16 recordings online",
-          "updatedAt": "2016-04-12T08:33:25.057029Z",
+          "updatedAt": 2016-04-12T08:33:25.057Z,
         },
         Object {
           "content": "&lt;p&gt;Die Recordings vom Easterhegg 16 haben ihren Weg auf media.ccc.de gefunden.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://media.ccc.de/c/eh16&quot;&gt;https://media.ccc.de/c/eh16&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;F&amp;uuml;r alle die diese&amp;nbsp;schon auf der R&amp;uuml;ckfahrt durchgeguckt haben hat der CCCFFM&lt;/p&gt;
 &lt;p&gt;gleich f&amp;uuml;r Nachschub gesorgt und zwei Talks vorbei geschickt&amp;nbsp;&lt;a href=&quot;https://media.ccc.de/b/events/cccffm&quot;&gt;https://media.ccc.de/b/events/cccffm&lt;/a&gt;&lt;/p&gt;",
-          "createdAt": "2016-03-28T19:31:16.404323Z",
+          "createdAt": 2016-03-28T19:31:16.404Z,
           "id": "news-tag:media.ccc.de,2016-03-28:23",
           "title": "Recordings vom Easterhegg 16 sowei zwei Talks vom CCCFFM online",
-          "updatedAt": "2016-03-28T19:31:16.404323Z",
+          "updatedAt": 2016-03-28T19:31:16.404Z,
         },
         Object {
           "content": "&lt;p&gt;Die Recordings findet ihr nun unter &lt;a href=&quot;https://media.ccc.de/c/routingdays16&quot;&gt;https://media.ccc.de/c/routingdays16&lt;/a&gt;&lt;/p&gt;",
-          "createdAt": "2016-02-22T15:50:31.769728Z",
+          "createdAt": 2016-02-22T15:50:31.769Z,
           "id": "news-tag:media.ccc.de,2016-02-22:22",
           "title": "Freifunk Rheinland RoutingDays 2016 veröffentlicht",
-          "updatedAt": "2016-02-22T16:37:36.35636Z",
+          "updatedAt": 2016-02-22T16:37:36.356Z,
         },
         Object {
           "content": "&lt;p&gt;We are happy to present the first recordings of the 32. chaos communication congress&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://media.ccc.de/c/32c3&quot;&gt;here&lt;/a&gt; . If the talk you are looking for is not yet on media please have&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;a look at our video on demand portal &lt;a href=&quot;https://streaming.media.ccc.de/32c3/relive/&quot;&gt;relive&lt;/a&gt;&amp;nbsp;.&lt;/p&gt;",
-          "createdAt": "2015-12-27T21:46:27.006511Z",
+          "createdAt": 2015-12-27T21:46:27.006Z,
           "id": "news-tag:media.ccc.de,2015-12-27:21",
           "title": "32C3: First recordings online",
-          "updatedAt": "2015-12-27T21:47:31.431407Z",
+          "updatedAt": 2015-12-27T21:47:31.431Z,
         },
         Object {
           "content": "You may not be aware that media.ccc.de is not only a shiny website but also runs a CDN ( &lt;a href=&quot;https://cdn.media.ccc.de/&quot;&gt;cdn.media.ccc.de&lt;/a&gt; ) which contains even more recordings
@@ -110,10 +111,10 @@ Bringing this old archives to the light of searchable website with meta data is 
 The first result of this work are 21 talks from the &lt;a href=&quot;https://media.ccc.de/c/froscon2012&quot;&gt;FrOSCon 2012 &lt;/a&gt;.&lt;br&gt;
 We will bring more recordings to the frontend over the next months and also publish files that for now are only available in one codec
 in a number of codecs to fulfill the needs of all the tiny mediaplayer thingies out there.",
-          "createdAt": "2015-10-20T10:07:56.05949Z",
+          "createdAt": 2015-10-20T10:07:56.059Z,
           "id": "news-tag:media.ccc.de,2015-10-20:20",
           "title": "Digging through the archives",
-          "updatedAt": "2015-10-20T10:07:56.05949Z",
+          "updatedAt": 2015-10-20T10:07:56.059Z,
         },
         Object {
           "content": "media.ccc.de offers video playback since 2008. Today we launched our &lt;a href=&quot;https://github.com/voc/media.ccc.de&quot;&gt;third major rewrite&lt;/a&gt;. As usual this means a new URL scheme and lots of 404 errors. We're watching the logs and will add some permanent redirects later.&lt;br/&gt;
@@ -124,10 +125,10 @@ Changes:&lt;br/&gt;
 &lt;li&gt;An audio-only podcast feed was added to the main feed menu.&lt;/li&gt;
 &lt;li&gt;Broadcatching feeds are gone until we find a better solution for torrents.&lt;/li&gt;
 &lt;/ul&gt;",
-          "createdAt": "2015-10-18T16:15:44.164368Z",
+          "createdAt": 2015-10-18T16:15:44.164Z,
           "id": "news-tag:media.ccc.de,2015-10-18:19",
           "title": "Software Upgrade",
-          "updatedAt": "2015-10-18T16:15:44.164368Z",
+          "updatedAt": 2015-10-18T16:15:44.164Z,
         },
         Object {
           "content": "Over the last month we have got so much new content that we didn't found the time to write a news about it.
@@ -146,93 +147,92 @@ So here is a short list of the last updates:
 One of the most comfy ways to watch all this is the ccc plugin for &lt;a href=&quot;https://kodi.tv&quot;&gt;kodi (xbmc)&lt;/a&gt; which you can now find in the
 official plugin repository. Have a look at the &lt;a href=&quot;https://media.ccc.de/about.html&quot;&gt;about page&lt;/a&gt; for more information
 on how to use media.ccc.de.",
-          "createdAt": "2015-10-04T16:27:58.534069Z",
+          "createdAt": 2015-10-04T16:27:58.534Z,
           "id": "news-tag:media.ccc.de,2015-10-04:18",
           "title": "Updates updates updates",
-          "updatedAt": "2015-10-06T13:05:56.214982Z",
+          "updatedAt": 2015-10-06T13:05:56.214Z,
         },
         Object {
           "content": "&lt;p&gt;Unter dem Motto &amp;raquo;The Edge of Control&amp;laquo; trafen sich Medienk&amp;uuml;nstler und Hacktivisten vom 15. bis 17. Mai 2015 in der Kunsthochschule f&amp;uuml;r Medien in K&amp;ouml;ln zur ersten &lt;a href=&quot;http://chaos.cologne&quot;&gt;Chaos.Cologne Konferenz&lt;/a&gt;. Alle aufgezeichneten Vortr&amp;auml;ge des &lt;a href=&quot;http://chaos.cologne/Fahrplan/&quot;&gt;Vortragsprogramms&lt;/a&gt; befinden sich unter &lt;a href=&quot;/c/1c2&quot;&gt;chaoscologne&lt;/a&gt;.&lt;/p&gt;",
-          "createdAt": "2015-05-18T12:30:11.686602Z",
+          "createdAt": 2015-05-18T12:30:11.686Z,
           "id": "news-tag:media.ccc.de,2015-05-18:17",
           "title": "[1c2] Chaos.Cologne - The Edge of Control",
-          "updatedAt": "2015-11-06T14:19:51.053267Z",
+          "updatedAt": 2015-11-06T14:19:51.053Z,
         },
         Object {
-          "content": "&lt;p&gt;Wir bedanken uns recht herzlich bei&amp;nbsp;&lt;a href=&quot;http://www.stickma.de&quot;&gt;stickma.de&lt;/a&gt;&amp;nbsp;f&amp;uuml;r das kostenlose Bereitstellen von 2000 &quot;media.ccc.de and chill&quot; Stickern.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Das VOC-Team wird diese bei den n&amp;auml;chsten Events dabei haben und verteilen.&lt;/p&gt;",
-          "createdAt": "2017-01-26T21:28:54.897836Z",
-          "id": "news-tag:media.ccc.de,2017-01-26:30",
-          "title": "media.ccc.de and chill",
-          "updatedAt": "2017-01-26T21:28:54.897836Z",
+          "content": "&lt;p&gt;Dieses Jahr wurde das &lt;a href=&quot;http://sublab.org&quot;&gt;Sublab&lt;/a&gt; in Leipzig bei der &lt;a href=&quot;https://cryptocon.org/15/&quot;&gt;CryptoCon&lt;/a&gt; erstmals vom C3VOC unterst&amp;uuml;tzt. Die Vortr&amp;auml;ge findet ihr unter &lt;a href=&quot;/c/cc15&quot;&gt;Conferences -&amp;gt; CryptoCon -&amp;gt; 2015&lt;/a&gt;.&lt;/p&gt;",
+          "createdAt": 2015-05-10T20:50:42.494Z,
+          "id": "news-tag:media.ccc.de,2015-05-10:16",
+          "title": "CryptoCon 2015",
+          "updatedAt": 2015-11-06T14:22:28.000Z,
         },
         Object {
           "content": "&lt;p&gt;Die Mitschnitte vom diesj&amp;auml;hrigen Easterhegg in Braunschweig befinden sich unter &lt;a href=&quot;/c/eh15/&quot;&gt;Conferences -&amp;gt; EH2015&lt;/a&gt;.&lt;/p&gt;",
-          "createdAt": "2015-04-05T08:43:18.591723Z",
+          "createdAt": 2015-04-05T08:43:18.591Z,
           "id": "news-tag:media.ccc.de,2015-04-05:15",
           "title": "Easterhegg 2015",
-          "updatedAt": "2015-11-06T14:23:40.418801Z",
+          "updatedAt": 2015-11-06T14:23:40.418Z,
         },
         Object {
           "content": "In den letzten Monaten haben ein paar neue Formate auf media.ccc.de Einzug gehalten.
 Neben dem Chaosradio welches seid der 200dersten Folge mindestens jeden zweite Monat auch als Video erscheint produziert nun auch der CCCAC eine Vor­trags­rei­he in Farbe und Bunt.
 Darüber hinaus hat der erste aufgezeichnete Datengarten des CCCB seinen weg auf media.ccc.de gefunden.
 Das Chaosradio findet ihr in der Kategorie Broadcast die Erfa Produktionen unter Events.",
-          "createdAt": "2015-03-26T09:01:14.951331Z",
+          "createdAt": 2015-03-26T09:01:14.951Z,
           "id": "news-tag:media.ccc.de,2015-03-26:14",
           "title": "Datengarten, Vörträge aus Aachen und das Chaosradio",
-          "updatedAt": "2015-03-26T09:01:14.951331Z",
+          "updatedAt": 2015-03-26T09:01:14.951Z,
         },
         Object {
           "content": "&lt;p&gt;Live streams in various format can be found at &lt;a href=&quot;http://streaming.media.ccc.de&quot;&gt;streaming.media.ccc.de&lt;/a&gt;. For more information see &lt;a href=&quot;http://events.ccc.de/2014/12/15/video-live-streams-and-recordings-at-31c3/&quot;&gt;this years events.ccc.de blog post&lt;/a&gt;. Recordings will pop up at &lt;a href=&quot;/c/31c3&quot;&gt;https://media.ccc.de/c/31c3&lt;/a&gt; when they are done.&lt;/p&gt;",
-          "createdAt": "2014-12-24T22:49:04.004255Z",
+          "createdAt": 2014-12-24T22:49:04.004Z,
           "id": "news-tag:media.ccc.de,2014-12-24:13",
           "title": "31C3",
-          "updatedAt": "2015-11-06T14:25:29.003133Z",
+          "updatedAt": 2015-11-06T14:25:29.003Z,
         },
         Object {
           "content": "Das Recording vom 30 Jahre BTX Hack event von &lt;a href=&quot;https://twitter.com/wauland&quot;&gt;@wauland&lt;/a&gt; ist nun &lt;a href=&quot;http://media.ccc.de/browse/events/wauland/30JahreBTXHack.html#video&quot;&gt;hier&lt;/a&gt; zu finden",
-          "createdAt": "2014-11-25T21:26:29.546041Z",
+          "createdAt": 2014-11-25T21:26:29.546Z,
           "id": "news-tag:media.ccc.de,2014-11-25:12",
           "title": "30 Jahre BTX Hack online",
-          "updatedAt": "2014-11-30T02:23:25.448375Z",
+          "updatedAt": 2014-11-30T02:23:25.448Z,
         },
         Object {
           "content": "Die ersten Talks der &lt;a href=&quot;http://www.fiffkon.de&quot;&gt;FIfFkon 2014&lt;/a&gt; findet ihr &lt;a href=&quot;http://media.ccc.de/browse/conferences/fiffkon/2014/index.html&quot;&gt;hier &lt;/a&gt;",
-          "createdAt": "2014-11-07T19:07:37.807129Z",
+          "createdAt": 2014-11-07T19:07:37.807Z,
           "id": "news-tag:media.ccc.de,2014-11-07:11",
           "title": "FIfFkon 2014 - erste talks online",
-          "updatedAt": "2014-11-07T19:33:33.513947Z",
+          "updatedAt": 2014-11-07T19:33:33.513Z,
         },
         Object {
           "content": "Die Recordings der &lt;a href=https://www.datenspuren.de/2014/&gt;Datenspuren 2014&lt;/a&gt; sind nun unter &lt;a href=&quot;http://media.ccc.de/browse/conferences/datenspuren/2014/index.html&quot;&gt; datenspuren2014 &lt;/a&gt; zu finden.",
-          "createdAt": "2014-11-05T13:44:40.196489Z",
+          "createdAt": 2014-11-05T13:44:40.196Z,
           "id": "news-tag:media.ccc.de,2014-11-05:10",
           "title": "Datenspuren 2014 released",
-          "updatedAt": "2014-11-05T13:44:40.196489Z",
+          "updatedAt": 2014-11-05T13:44:40.196Z,
         },
         Object {
           "content": "Recorded talks from &lt;a href=&quot;http://vcfb.de/2014/&quot;&gt;Vintage Computing Festival Berlin&lt;/a&gt; are now &lt;a href=&quot;//media.ccc.de/browse/conferences/vcfb/2014/&quot;&gt;online&lt;/a&gt;.
 
 Have fun!",
-          "createdAt": "2014-11-03T17:06:20.87182Z",
+          "createdAt": 2014-11-03T17:06:20.871Z,
           "id": "news-tag:media.ccc.de,2014-11-03:9",
           "title": "Vintage Computing Festival Berlin Recordings online",
-          "updatedAt": "2014-11-05T00:00:21.831238Z",
+          "updatedAt": 2014-11-05T00:00:21.831Z,
         },
         Object {
           "content": "All recorded talks from &lt;a href=&quot;//hackover.de/&quot;&gt;Hackover 2014&lt;/a&gt; room 1.7 can be found at &lt;a href=&quot;//media.ccc.de/browse/conferences/hackover/2014/&quot;&gt;conferences/hackover/2014&lt;/a&gt;.",
-          "createdAt": "2014-10-26T20:45:15.974333Z",
+          "createdAt": 2014-10-26T20:45:15.974Z,
           "id": "news-tag:media.ccc.de,2014-10-26:8",
           "title": "Hackover 2014",
-          "updatedAt": "2014-10-26T20:45:15.974333Z",
+          "updatedAt": 2014-10-26T20:45:15.974Z,
         },
         Object {
           "content": "The talks from MRMCD 2014 can be found at &lt;a href=&quot;//media.ccc.de/browse/conferences/mrmcd/mrmcd14/&quot;&gt;conferences/mrmcd/mrmcd14&lt;/a&gt;.",
-          "createdAt": "2014-09-06T17:10:15.405561Z",
+          "createdAt": 2014-09-06T17:10:15.405Z,
           "id": "news-tag:media.ccc.de,2014-09-06:7",
           "title": "MRMCD2014 talks",
-          "updatedAt": "2014-09-08T12:15:27.867004Z",
+          "updatedAt": 2014-09-08T12:15:27.867Z,
         },
       ],
       "pageInfo": Object {

@@ -5,7 +5,7 @@ import camelCase from "lodash.camelcase";
  * @param {object} obj - Object to check
  * @returns {boolean} Whether an object is plain
  */
-export const isPlainObject = obj =>
+export const isPlainObject = (obj) =>
   obj instanceof Object && !(obj instanceof Array);
 
 /**
@@ -13,11 +13,11 @@ export const isPlainObject = obj =>
  * @param {object} obj - Input object
  * @returns {object} Input object where all keys are camelized
  */
-export const camelizeObj = obj =>
+export const camelizeObj = (obj) =>
   Object.entries(obj).reduce(
     (acc, [key, value]) => ({
       ...acc,
-      [camelCase(key)]: isPlainObject(value) ? camelizeObj(value) : value
+      [camelCase(key)]: isPlainObject(value) ? camelizeObj(value) : value,
     }),
     {}
   );
@@ -28,16 +28,18 @@ export const camelizeObj = obj =>
  * @param {string} direction - Order direction, either ASC or DESC
  * @returns {function} Order function that can be used with .sort()
  */
-export const orderObjArray = (orderBy = {}) => (a, b) => {
-  const { field, direction } = orderBy;
-  if (direction === "ASC") {
-    return a[field] > b[field] ? 1 : -1;
-  }
-  if (direction === "DESC") {
-    return a[field] < b[field] ? 1 : -1;
-  }
-  return 0;
-};
+export const orderObjArray =
+  (orderBy = {}) =>
+  (a, b) => {
+    const { field, direction } = orderBy;
+    if (direction === "ASC") {
+      return a[field] > b[field] ? 1 : -1;
+    }
+    if (direction === "DESC") {
+      return a[field] < b[field] ? 1 : -1;
+    }
+    return 0;
+  };
 
 /**
  * Make a GraphQL connection response
@@ -53,10 +55,10 @@ export const makeConnectionResponse = (nodes, totalCount, offset, limit) => ({
 
   pageInfo: {
     hasNextPage: offset + limit < totalCount,
-    hasPreviousPage: offset > 0 && totalCount > 0
+    hasPreviousPage: offset > 0 && totalCount > 0,
   },
 
-  totalCount
+  totalCount,
 });
 
 /**

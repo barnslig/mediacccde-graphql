@@ -13,11 +13,9 @@ const server = new ApolloServer({
   dataSources: () => ({
     MediaApi: new MediaApi(),
     MirrorApi: new MirrorApi(),
-    NewsApi: new NewsApi()
+    NewsApi: new NewsApi(),
   }),
   introspection: true,
-  playground: true,
-  tracing: process.env.NODE_ENV !== "production"
 });
 
 server.listen().then(({ url }) => {

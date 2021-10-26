@@ -6,7 +6,7 @@ import {
   camelizeObj,
   makeConnectionResponse,
   makeConnectionResponseFromArray,
-  makeConnectionResponseFromResponse
+  makeConnectionResponseFromResponse,
 } from "./helpers";
 
 /* Some media.ccc.de API methods return very large responses. For example,
@@ -36,7 +36,7 @@ class MediaApi extends RESTDataSource {
       throw new UserInputError(
         "Offset is not divisible by limit without remainder.",
         {
-          invalidArgs: ["offset"]
+          invalidArgs: ["offset"],
         }
       );
     }
@@ -116,7 +116,7 @@ class MediaApi extends RESTDataSource {
       related
         .sort((a, b) => (a.weight < b.weight ? 1 : -1))
         .slice(offset, offset + limit)
-        .map(r => this.getEvent(r.event_guid))
+        .map((r) => this.getEvent(r.event_guid))
     );
 
     return makeConnectionResponse(nodes, totalCount, offset, limit);

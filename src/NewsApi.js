@@ -17,7 +17,7 @@ class NewsApi extends RESTDataSource {
 
   async getNews(offset = 0, limit = defaultLimit, orderBy) {
     const data = await this.get("/news.atom", null, {
-      cacheOptions
+      cacheOptions,
     });
     const entries = fastXMLParser.parse(data).feed.entry;
 

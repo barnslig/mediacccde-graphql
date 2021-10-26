@@ -2,7 +2,7 @@ import {
   isPlainObject,
   camelizeObj,
   orderObjArray,
-  makeConnectionResponse
+  makeConnectionResponse,
   //  makeConnectionResponseFromArray,
   //  makeConnectionResponseFromResponse
 } from "./helpers";
@@ -23,23 +23,23 @@ describe("camelizeObj", () => {
     expect(
       camelizeObj({
         foo_bar: {
-          baz_bla: "test_test"
-        }
+          baz_bla: "test_test",
+        },
       })
     ).toEqual({
       fooBar: {
-        bazBla: "test_test"
-      }
+        bazBla: "test_test",
+      },
     });
   });
 
   test("is not camelizing keys in objects", () => {
     expect(
       camelizeObj({
-        foo_bar: [{ baz_bla: "test_test" }]
+        foo_bar: [{ baz_bla: "test_test" }],
       })
     ).toEqual({
-      fooBar: [{ baz_bla: "test_test" }]
+      fooBar: [{ baz_bla: "test_test" }],
     });
   });
 });
@@ -66,9 +66,9 @@ describe("makeConnectionResponse", () => {
       nodes: [],
       pageInfo: {
         hasNextPage: false,
-        hasPreviousPage: false
+        hasPreviousPage: false,
       },
-      totalCount: 20
+      totalCount: 20,
     });
   });
 
@@ -77,9 +77,9 @@ describe("makeConnectionResponse", () => {
       nodes: [],
       pageInfo: {
         hasNextPage: true,
-        hasPreviousPage: false
+        hasPreviousPage: false,
       },
-      totalCount: 20
+      totalCount: 20,
     });
   });
 
@@ -88,9 +88,9 @@ describe("makeConnectionResponse", () => {
       nodes: [],
       pageInfo: {
         hasNextPage: false,
-        hasPreviousPage: true
+        hasPreviousPage: true,
       },
-      totalCount: 20
+      totalCount: 20,
     });
   });
 
@@ -99,9 +99,9 @@ describe("makeConnectionResponse", () => {
       nodes: [],
       pageInfo: {
         hasNextPage: true,
-        hasPreviousPage: true
+        hasPreviousPage: true,
       },
-      totalCount: 20
+      totalCount: 20,
     });
   });
 });
