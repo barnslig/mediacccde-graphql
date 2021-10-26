@@ -15,7 +15,7 @@
   "scripts": {
     "build": "babel src --ignore **/*.test.js,**/__tests__ -d dist",
     "dev": "yarn build && yarn start",
-    "now-build": "yarn build",
+    "vercel-build": "yarn build",
     "start": "node dist/",
     "test": "jest"
   },
