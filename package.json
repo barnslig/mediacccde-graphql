@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "apollo-datasource-rest": "^3.3.0",
-    "apollo-server": "^3.4.0",
+    "apollo-server": "^3.4.1",
     "fast-xml-parser": "^3.12.12",
     "graphql": "^15.6.1",
     "graphql-scalars": "^1.12.0",
